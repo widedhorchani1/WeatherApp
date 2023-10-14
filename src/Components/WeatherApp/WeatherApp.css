@@ -1,0 +1,116 @@
+.container{
+    width: 600px;
+    height: 800px;
+    margin:auto;
+    margin-top: 80px;
+    border-radius: 15px;
+   /* background-image: linear-gradient(180deg ,#92d3ef 0% , #26b7c1 80% );*/
+   background-image: linear-gradient(to right ,#abd3f4, #8edc9c,#5eb0dc);
+  
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+.topBar input{
+    display: flex;
+    width: 360 px;
+    height: 80px;
+    background: #f4f8f9;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: rgb(146, 146, 146);
+    font-size: 20px;
+    font-weight: 400;
+}
+.searchIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #f4f8f9;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.weatherImage{
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 14px;
+    padding-top: 45px;
+    width: 400px;
+    height: 400px;
+}
+.weatherDescription{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    font-size:25px;
+
+}
+.weatherTem{
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 66, 87);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 120 px;
+    font-weight: 600;
+}
+.weatherLocation{
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 66, 87);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 20 px;
+
+    font-weight: 600;
+    size: 20px;  
+}
+.dataContainer{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12 px;
+   
+
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+   
+    margin-right: 8px ;
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+    align-items:baseline;
+    margin-top: 20px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+
+  
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
